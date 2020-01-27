@@ -13,7 +13,7 @@ const image = require('./controllers/image');
   client: 'pg',
   connection: {
     connectionString : process.env.DATABASE_URL,
-    ssl:true
+    ssl:true,
   }
 });
 
