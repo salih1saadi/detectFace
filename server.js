@@ -12,10 +12,8 @@ const image = require('./controllers/image');
  const db = knex ({
   client: 'pg',
   connection: {
-    host : 'ec2-23-21-13-88.compute-1.amazonaws.com',
-    user : 'cbhwzzvcqhbcss',
-    password : '73461f6ec0291f462803a06ac4d475a97c227b849a1e3cb27e93870fb4ab0195',
-    database : 'd1rrn56csohsql'
+    connectionString: process.env.DATABASE_URL,
+    ssl:true,
   }
 });
 
