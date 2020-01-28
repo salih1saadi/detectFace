@@ -18,8 +18,6 @@ app.models
 
 
 
-
-
 const handleImage = (req, res, db) =>{
 
 const { id } = req.body;
@@ -37,6 +35,5 @@ db('users').where('id','=', id)
 }
 module.exports = {
 	handleImage,
-	handleApiCall,
-	recognizeApiCall
+	handleApiCall
 };
