@@ -13,9 +13,9 @@ const image = require('./controllers/image');
   client: 'pg',
   connection: {
     host : 'ec2-23-21-13-88.compute-1.amazonaws.com',
-    user : 'dydhskyglyikti',
-    password : '765681a4a795da2b2c1bbf7c4705a305cae94be4075867359d726145fa0fffd5',
-    database : 'dd9lssq7nt8hrb'
+    user : 'cbhwzzvcqhbcss',
+    password : '73461f6ec0291f462803a06ac4d475a97c227b849a1e3cb27e93870fb4ab0195',
+    database : 'd1rrn56csohsql'
   }
 });
 
